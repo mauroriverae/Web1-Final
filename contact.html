@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name=”keywords” content=”arte,graficos,pinturas,tecnologia”>
+	<meta name = “description” content= "OpenArt somos una empresa en busqueda de brindarles el mejor arte digital">
+	<meta name="author" content="Mauro Rivera">
+	<meta name="copyright" content="OpenArt.s.a" >
+	<meta name="robots" content="index" >
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+	<title>OpenArt</title>
+</head>
+<body class="boody_index" onload="contactJS();">
+	<header>
+		<nav class="navbar">
+			<img src="img/logo.png" class="logo" alt="maurorivera">
+			<ul class="menu" id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Galery</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+			<div class="menu-bar" id="menu-bar">
+				<i class="fas fa-bars" id="menu-bar"></i>
+			</div>
+		</nav>
+	</header>
+
+
+    <main class="main__contact">
+        <section class="container__contact">
+            <h2>¿Quienes somos?</h2>
+            <p>Somos una empresa dedicada a presentarte las mayores creaciones de arte digital del mundo moderno, nuestro objetivo es tanto el compercio como la presentacion</p>
+        </section>
+        <section class="ubicacion">
+            <h2>¿Donde nos ubicamos?</h2>
+<!--             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168098.10218748683!2d2.309955317325517!3d48.82897413149582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sMuseo%20del%20Louvre!5e0!3m2!1ses-419!2sar!4v1654750120502!5m2!1ses-419!2sar" width="80%" height="80%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>		
+ -->        </section>
+        <section class="forms">
+            <h2>Dejanos tus consultas</h2>
+            <div class="conteiner__contacts">
+				<form id="form">
+					<input type="email" id="email__" name="email" placeholder="email" required>
+					<input type="text"  id="nombre__" name="nombre" placeholder="nombre" required>
+					<textarea id="coment__" name="comentario__" placeholder="deja tu comentario" required maxlength="20"></textarea>
+					<button type="submit" id="btn-enviar" value="Enviar">Enviar</button>
+					<div class="delete__put">
+						<input type="number"  id="id__delete" name="id__delete" placeholder="ingrese un id a eliminar" >
+						<input type="button" id="borrar" value="borrar">
+						<input type="button" id="modificar" value="modificar">
+					</div>
+					<p id="msg"></p>
+				</form>
+				<table class="table-fill">
+					<thead class="head__t">
+						<tr>
+							<th class="table-left">Email</th>
+							<th class="table-left">Nombre</th>
+							<th class="table-left">comentario</th>
+							<th class="table-left">id</th>
+						</tr>
+					</thead>
+					<tbody id="body__t">
+					</tbody>
+				</table> 
+			</div>
+        </section>
+    </main>
+
+	<footer class="footer">
+		<div >
+			<h2>&copy;Rivera </h2>
+		</div>
+		<div class="social-network">
+			 <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+			 <a href="https://www.faceboock.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			 <a href="https://www.instagram.com/nftmodernclub/" target="_blank"><i class="fab fa-instagram"></i></a>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
